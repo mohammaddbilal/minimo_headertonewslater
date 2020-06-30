@@ -1,0 +1,132 @@
+/*font-family: 'Playfair Display', serif;
+  font-family: 'Ubuntu', sans-serif;
+*/
+  *{
+  	margin: 0;
+  	padding: 0;
+  }
+  body{
+  	font-family: 'Playfair Display', serif;
+  	color: #626262;
+  }
+  /*header start*/ 
+header{
+	padding: 23px 0;
+    /*border: 1px solid black;*/  
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    /*border:1px solid red;*/
+}
+.logo{ 
+    margin-top: 3px;
+    width: 13%; 
+    float: left;
+    /*border:1px solid red;*/ 
+}
+.logo img{
+    width: 100%
+}
+.menu{
+    width: 60%;
+    float: right;
+    /*border:1px solid red;*/ 
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	margin: 0 30px;
+	padding: 10px 0;
+	color: #626262;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: inline-block;
+    transition: .3s;
+    border-bottom: 1px solid transparent; 
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+.menu ul li a:hover{
+	border-bottom: 1px solid #626262; 
+	transition: .3s;
+}
+/*header end*/
+/*banner start*/
+section .container img{
+	width: 100%;
+}
+/*banner end*/ 
+/*photodiary start*/
+.container1 {
+	width: 80%;
+	margin: 27px auto;
+	/*border: 1px solid #126233;*/
+}
+.container1 h2,h4{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 16px;
+    font-weight: 300;
+}
+.container1 h2{
+	margin: 20px 0;
+	text-transform: uppercase;
+}
+.container1 h3,p{
+	font-family: 'Playfair Display', serif;
+}
+.container1 h3{
+	font-size: 24px;
+    font-weight: 400;
+    padding-bottom: 25px;
+}
+.container1 h4{
+	margin-top: 30px;
+}
+/*photodiary end*/ 
+/*newsletter start*/ 
+.newsletter{
+   background-color: #f0f0f0;
+}
+.container2{
+    width: 400px;
+    margin: 0 auto;
+    padding-bottom: 77px;
+}
+.container2 h2{
+    margin: 0 53px;
+    padding: 75px 0 87px;
+    color: #333333;
+
+}
+.sendmail{
+    padding-bottom: 5px;
+    border-bottom: 1px solid black;
+    margin: 0px 53px;
+}
+
+.sendmail input {
+    padding-bottom: 4px;
+    padding-right: 122px;
+    margin-left: 2px;
+    margin-right: 0px;
+    border: none;
+    background-color: #f0f0f0;
+    position: relative;
+}
+.sendmail button{
+	position: absolute;
+}
+.sendmail button img{
+	position: absolute;
+	margin-left: -33px;
+}
+
+/*newsletter end*/ 
